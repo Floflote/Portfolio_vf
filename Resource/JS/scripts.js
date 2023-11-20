@@ -7,7 +7,7 @@ var typed = new Typed(".typing", {
   loop: true,
 });
 
-/* Aside */
+/* Aside
 const nav = document.querySelector(".nav");
 const navList = nav.querySelectorAll("li");
 const totalNavList = navList.length;
@@ -84,7 +84,7 @@ function asideSectionTogglerBtn() {
   for (let i = 0; i < totalSection; i++) {
     allSection[i].classList.toggle("open");
   }
-}
+} */
 
 /* Portfolio Web Item Filter */
 const filterContainer = document.querySelector(".portfolio-filter");

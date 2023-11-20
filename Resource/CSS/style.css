@@ -28,6 +28,7 @@ body {
   outline: none;
   text-decoration: none;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 ::before,
@@ -45,8 +46,8 @@ ul {
   display: block;
   padding: 0 30px;
   opacity: 1;
-  position: fixed;
-  left: 270px;
+  /* position: fixed; */
+  margin-left: 270px;
   top: 0;
   right: 0;
   bottom: 0;
@@ -289,10 +290,11 @@ ul {
   color: var(--text-black-900);
   padding: 5px 15px;
 }
-
+/*
 .aside .nav li a.active {
   color: var(--skin-color);
 }
+*/
 
 .aside .nav li a:hover {
   color: var(--skin-hover);
@@ -891,7 +893,7 @@ h3.my-profession {
   border: 6px solid var(--bg-black-100);
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
   position: relative;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .design .design-item-inner .design-img img {
@@ -911,7 +913,7 @@ h3.my-profession {
   position: absolute;
   left: 0;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.4);
   z-index: 1;
   height: 100%;
   width: 100%;
@@ -932,6 +934,7 @@ h3.my-profession {
   transform: translateX(-20px);
   transition: all 0.7s ease-in-out;
   opacity: 0;
+  -webkit-text-stroke: 0.4px black;
 }
 
 .design .design-item:hover .design-info h4 {
