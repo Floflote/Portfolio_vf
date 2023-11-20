@@ -57,6 +57,7 @@ ul {
   transition: all 0.3s ease-in-out;
 }
 
+/*
 .section.back-section {
   z-index: 1;
 }
@@ -75,6 +76,7 @@ ul {
     transform: translateX(0%);
   }
 }
+*/
 
 .hidden {
   display: none !important;
