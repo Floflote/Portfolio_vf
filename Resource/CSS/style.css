@@ -1216,6 +1216,10 @@ h3.my-profession {
 
 /* Responsive */
 @media (max-width: 1199px) {
+  .section {
+    margin-left: 0;
+  }
+
   .section .container {
     padding-top: 70px;
   }
